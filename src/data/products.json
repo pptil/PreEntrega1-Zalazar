@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone Galaxy S21",
+    "image": "galaxy_s21.jpg",
+    "stock": 10,
+    "category": "Electronica",
+    "price": 699.99
+  },
+  {
+    "id": "2",
+    "name": "Camiseta de Algodón Rayada",
+    "image": "camiseta_rayada.jpg",
+    "stock": 5,
+    "category": "Ropa",
+    "price": 29.99
+  },
+  {
+    "id": "3",
+    "name": "Vestido Elegante Negro",
+    "image": "vestido_negro.jpg",
+    "stock": 20,
+    "category": "Ropa",
+    "price": 89.99
+  },
+  {
+    "id": "4",
+    "name": "TV LED 55 Pulgadas",
+    "image": "tv_led_55.jpg",
+    "stock": 15,
+    "category": "Electronica",
+    "price": 799.99
+  },
+  {
+    "id": "5",
+    "name": "Set de Construcción Creativa",
+    "image": "set_construccion.jpg",
+    "stock": 8,
+    "category": "Juguetes",
+    "price": 39.99
+  },
+  {
+    "id": "6",
+    "name": "Auriculares Inalámbricos SonicX",
+    "image": "auriculares_sonicx.jpg",
+    "stock": 25,
+    "category": "Electronica",
+    "price": 149.99
+  },
+  {
+    "id": "7",
+    "name": "Chaqueta de Cuero Urbana",
+    "image": "chaqueta_cuero.jpg",
+    "stock": 12,
+    "category": "Ropa",
+    "price": 129.99
+  },
+  {
+    "id": "8",
+    "name": "Dron Quadcopter SkyMaster",
+    "image": "dron_skymaster.jpg",
+    "stock": 6,
+    "category": "Electronica",
+    "price": 199.99
+  },
+  {
+    "id": "9",
+    "name": "Peluche Interactivo Pompom",
+    "image": "peluche_pompom.jpg",
+    "stock": 18,
+    "category": "Juguetes",
+    "price": 29.99
+  },
+  {
+    "id": "10",
+    "name": "Vestido Floral Primaveral",
+    "image": "vestido_floral.jpg",
+    "stock": 14,
+    "category": "Ropa",
+    "price": 69.99
+  },
+  {
+    "id": "11",
+    "name": "Consola de Juegos NexusPlay",
+    "image": "consola_nexusplay.jpg",
+    "stock": 9,
+    "category": "Electronica",
+    "price": 349.99
+  },
+  {
+    "id": "12",
+    "name": "Puzzle Educativo AprendoABC",
+    "image": "puzzle_aprendoabc.jpg",
+    "stock": 20,
+    "category": "Juguetes",
+    "price": 19.99
+  }
+]
