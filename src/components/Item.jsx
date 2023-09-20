@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-import { ItemCount } from "./ItemCount";
 
 export const Item = ({ product }) => {
   return (
@@ -9,8 +8,13 @@ export const Item = ({ product }) => {
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
         <Card.Text>{product.category}</Card.Text>
-        <Link to={`/item/${product.id}`}></Link>
-        <ItemCount></ItemCount>
+        <Link
+          className="btn btn-primary"
+          role="button"
+          to={`/item/${product.id}`}
+        >
+          Ver Producto
+        </Link>
       </Card.Body>
     </Card>
   );

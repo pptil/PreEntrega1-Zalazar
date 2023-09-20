@@ -19,6 +19,7 @@ export const ItemListContainer = ({ greeting }) => {
   };
 
   useEffect(() => {
+    setIsLoading(true); // Agregamos esto para mostrar "Cargando..." mientras se actualiza la lista.
     setTimeout(() => {
       const filteredProducts = filterProductsByCategory(id);
       setProducts(filteredProducts);
