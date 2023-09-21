@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+#carrito {
+  padding-right: 30px;
+}
+
+.nav-link:hover {
+  background-color: #da69c7; 
+}
+
+.nav-link {
+  padding-top: 5%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cabeza {
+  background: #ae61b1; 
+  position: relative;
+}
+
+.headlogbg {
+  background: #a47ac0; 
+}
+

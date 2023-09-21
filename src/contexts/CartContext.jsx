@@ -21,4 +21,13 @@ export const CartProvider = () => {
       setItems(actualizarProductos);
     }
   };
+
+  const totalWidget = items.reduce((acc, val) => item.id !== id);
+
+  const removeItem = (id) => {
+    const itemsFiltered = items.filter((item) => item.id !== id);
+    setItems(itemsFiltered);
+  };
+
+  const clear = () => setItems();
 };
