@@ -13,7 +13,7 @@ const ItemCount = ({ stock, initial, onAdd, itemName }) => {
     } else {
       const Toast = Swal.mixin({
         toast: true,
-        background: "#DFA822",
+        background: "#ba66b6",
         showConfirmButton: false,
         timer: 2000,
         timerProgressBar: false,
@@ -39,7 +39,7 @@ const ItemCount = ({ stock, initial, onAdd, itemName }) => {
   const handleOnAdd = () => {
     const Toast = Swal.mixin({
       toast: true,
-      background: "#DFA822",
+      background: "#ba66b6",
       showConfirmButton: false,
       timer: 2000,
       timerProgressBar: false,

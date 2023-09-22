@@ -17,7 +17,7 @@ function CartView({ greeting }) {
   const handleVaciar = () => {
     const Toast = Swal.mixin({
       toast: true,
-      background: "#DFA822",
+      background: "#ba66b6",
       showConfirmButton: false,
       timer: 2000,
       timerProgressBar: false,
@@ -40,7 +40,7 @@ function CartView({ greeting }) {
 
       const Toast = Swal.mixin({
         toast: true,
-        background: "#DFA822",
+        background: "#ba66b6",
         showConfirmButton: false,
         timer: 2000,
         timerProgressBar: false,
