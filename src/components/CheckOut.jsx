@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
 
 function Checkout() {
-  document.title = `Lolita Pago y envío`;
+  document.title = `Lolita - CheckOut`;
   const { cart, clearCart, itemsTotal, precioTotal } = useCartContext();
   const [orderID, setOrderID] = useState();
 
